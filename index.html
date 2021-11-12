@@ -17,18 +17,21 @@
             }
             #hud {
                 position: absolute;
-                top: 10%;
+                top: 0px;
                 display: flex;
                 flex-direction: column;
-                min-height: 100px;
+                justify-content: center;
+                height: 100vh;
+                max-width: 20vw;
+                min-height: 100vh;
+                flex-wrap: wrap;
             }
             #hud div {
                 text-align: center;
                 padding: 20px;
-                height: 100%;
+                align-items: center;
                 background-color: rgba(84, 21, 126, 0.397);
                 color: #fff;
-                display: inline-block;
             }
             #hud div:hover {
                 background-color: rgba(116, 23, 179, 0.705);
